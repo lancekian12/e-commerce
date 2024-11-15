@@ -7,6 +7,11 @@ const Subscribe = () => {
                 <h3 className='text-3xl md:text-4xl text-center leading-snug font-palanquin font-bold'>
                     Reach Us By <span className='text-coral-red'>Contacting Us</span>
                 </h3>
+                <p className="text-center text-lg mt-4 text-accent">
+                    Feel free to get in touch with us to acquire our services. Once you&apos;re ready, we&apos;ll guide you through the process and ensure you&apos;re set to return to your home with everything you need.
+                </p>
+
+
 
                 <form className='mt-8 flex flex-col gap-6 p-8 sm:border sm:border-slate-gray rounded-lg shadow-lg bg-white'>
                     {/* Name Input */}
