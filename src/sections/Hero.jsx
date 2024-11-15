@@ -1,17 +1,14 @@
 import { useState } from "react";
 import { shoes, statistics } from "../constants";
-import { bigShoe1 } from "../assets/images";
-// import { motionSensor } from "../assets/images";
 import { arrowRight } from "../assets/icons";
 import Button from '../components/Button'
 import ShoeCard from '../components/ShoeCard'
-// import motion_sensor from '../assets/images/motion_sensor.png';
+import bigShoe1 from '../assets/images/motion_sensor.png';
 
 
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
-  // const [motionSensor, setMotionSensor] = useState(motionSensor)
 
   return (
     <section

@@ -1,7 +1,8 @@
 // import React from 'react'
-import { footerLogo } from "../assets/images"
 // import { copyrightSign } from "../assets/icons";
 import { socialMedia, footerLinks } from "../constants"
+import sensorLogoWhite from '../assets/images/motion_sensor_whitelogo.jpeg';
+
 
 const Footer = () => {
     return (
@@ -9,18 +10,24 @@ const Footer = () => {
             <div className='flex justify-between items-start flex-wrap max-lg:flex-col'>
                 <div className='flex flex-col items-start'>
                     <a href="/">
-                        <img src={footerLogo} alt="footerLogo"
+                        <img src={sensorLogoWhite} alt="footerLogo"
                             width={150} height={46} />
                     </a>
-                    <p className='mt-6 text-[16px] leading-7 font-montserrat text-white-400 sm:max-w-sm'>Get shoes ready for the new
-                        term at your nearest Nike store. Find Your perfect Size In Store. Get Rewards</p>
+                    <p className='mt-6 text-[16px] leading-7 font-montserrat text-white-400 sm:max-w-sm'>
+                        Explore cutting-edge motion sensors for precision and innovation in every movement.
+                    </p>
+
                     <div className='flex items-center gap-5 mt-8'>
                         {socialMedia.map((icon) => (
                             // eslint-disable-next-line react/jsx-key
-                            <div className='flex justify-center items-center w-12 h-12 bg-white rounded-full'>
-                                <img src={icon.src} alt={icon.alt}
-                                    width={24} height={24} />
-                            </div>
+                            <a
+                                href={icon.link}  // Use the link from the socialMedia array
+                                target="_blank"   // Open the link in a new tab
+                                rel="noopener noreferrer" // Security best practice
+                                className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
+                            >
+                                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                            </a>
                         ))}
                     </div>
                 </div>
