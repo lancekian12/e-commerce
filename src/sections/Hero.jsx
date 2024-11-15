@@ -32,7 +32,9 @@ const Hero = () => {
           reliability, and modern design for every application.
         </p>
 
-        <Button label='Appoint Now' iconURL={arrowRight} />
+        <a href="#contact-us">
+          <Button label='Appoint Now' iconURL={arrowRight} />
+        </a>
 
         <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
           {statistics.map((stat, index) => (
