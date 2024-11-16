@@ -18,6 +18,7 @@ export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
+  { href: "#service", label: "Service" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -46,22 +47,22 @@ export const products = [
   {
     imgURL: bigShoe1,
     name: "Motion Sensor 1",
-    price: "$200.20",
+    price: "200.20",
   },
   {
     imgURL: sensor2,
     name: "Motion Sensor 2",
-    price: "$210.20",
+    price: "210.20",
   },
   {
     imgURL: sensor3,
     name: "Motion Sensor 3",
-    price: "$220.20",
+    price: "220.20",
   },
   {
     imgURL: sensor4,
     name: "Motion Sensor 4",
-    price: "$230.20",
+    price: "230.20",
   },
 ];
 
