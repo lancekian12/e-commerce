@@ -6,19 +6,20 @@ import {
   truckFast,
   twitter,
 } from "../assets/icons";
-import { customer1, customer2 } from "../assets/images";
 import bigShoe1 from "../assets/images/motion_sensor.png";
 import bigShoe2 from "../assets/images/motion_sensor_2.png";
 import bigShoe3 from "../assets/images/motion_sensor_3.png";
 import sensor2 from "../assets/images/second.png";
 import sensor3 from "../assets/images/third.png";
 import sensor4 from "../assets/images/fourth.png";
+import lancekian from "../assets/images/lancekian.jpg";
+import sarlito from "../assets/images/sarlito.jpg";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
-  { href: "#service", label: "Service" },
+  { href: "#about-us", label: "Quality" },
+  { href: "#service", label: "Features" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -47,22 +48,18 @@ export const products = [
   {
     imgURL: bigShoe1,
     name: "Motion Sensor 1",
-    price: "200.20",
   },
   {
     imgURL: sensor2,
     name: "Motion Sensor 2",
-    price: "210.20",
   },
   {
     imgURL: sensor3,
     name: "Motion Sensor 3",
-    price: "220.20",
   },
   {
     imgURL: sensor4,
     name: "Motion Sensor 4",
-    price: "230.20",
   },
 ];
 
@@ -87,18 +84,17 @@ export const services = [
 
 export const reviews = [
   {
-    imgURL: customer1,
-    customerName: "Morich Brown",
+    imgURL: lancekian,
+    customerName: "Lance Kian Flores",
     rating: 4.5,
-    feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+    feedback: "Sobrang galing ng pagkabit at quality talaga ang motion sensor",
   },
   {
-    imgURL: customer2,
-    customerName: "Lota Mongeskar",
+    imgURL: sarlito,
+    customerName: "Sarlito Tayag",
     rating: 4.5,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "One of the best quality na motion sensor na nabili ko at sobrang bait ng nagkakabit at pogi pa ",
   },
 ];
 
