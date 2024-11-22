@@ -33,7 +33,7 @@ const Hero = () => {
         </p>
 
         <a href="#contact-us">
-          <Button label='Appoint Now' iconURL={arrowRight} />
+          <Button label='Appointment Now' iconURL={arrowRight} />
         </a>
 
         <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
